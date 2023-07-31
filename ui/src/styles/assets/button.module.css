@@ -1,0 +1,46 @@
+.btn {
+  padding: 10px 8px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 13px 11px 42px -9px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 13px 11px 42px -9px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 13px 11px 42px -9px rgba(0, 0, 0, 0.3);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-add {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-add:hover {
+  background-color: #000000a9;
+  color: #ffffff;
+}
+
+.btn-danger {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #ff0000a9;
+  color: #ffffff;
+}
+
+.btn-update {
+  background-color: #0000ff;
+  color: #fff;
+}
+
+.btn-update:hover {
+  background-color: #0000ffa9;
+  color: #ffffff;
+}
